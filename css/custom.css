@@ -1,0 +1,90 @@
+div {
+    border: 0.5px solid #fff;
+    font-family: hero-new-hairline,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .mobile-container {
+    height: 100vh;
+  }
+
+  .mobile-nav {
+    background-color: cyan;
+    height: 50px;
+  }
+
+  .burger-menu,
+  .logo,
+  .search {
+    height: 100%;
+    width: 20.1%;
+    display: inline-block;
+  }
+
+  .logo {
+    width: 57.5%;
+  }
+
+  .search {
+    width: 20.5%;
+  }
+
+  .daily-section {
+    background-color: tomato;
+    height: 80px;
+    height: 35vh;
+  }
+
+  .current-city {
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    background-color: orange;
+    margin: auto;
+    text-align: center;
+  }
+
+  .weather-image,
+  .weather-info {
+    width: 49.4%;
+    height: 75%;
+    float: left;
+    border: none;
+  }
+
+  .map-container,
+  .fav-container {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .map-section {
+    background-color: lime;
+    height: 25vh;
+  }
+
+  .map {
+    height: 78%;
+    background-color: lime;
+  }
+
+  .map-title,
+  .expand {
+    background-color: olive;
+    height: 22%;
+    float: left;
+    width: 79%;
+  }
+
+  .expand {
+    width: 19.8%;
+  }
+
+  .favorite-section {
+    background-color: grey;
+    height: 25vh;
+  }
+
+  .footer-section {
+    background-color: pink;
+    height: 80px;
+  }
