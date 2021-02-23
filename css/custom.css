@@ -5,7 +5,7 @@ body {
 
 div {
   /* border: 0.5px solid #fff; */
-  font-family: century-gothic,sans-serif;
+  font-family: century-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -102,6 +102,20 @@ tr:hover {
   letter-spacing: 2px;
 }
 
+.temp-now,
+.min-temp,
+.max-temp,
+.wind,
+.humidity {
+  padding: 10px;
+  text-align: center;
+}
+
+.icon,
+.value {
+  margin: 3px;
+}
+
 .map-container,
 .fav-container {
   padding: 5px 5px 5px 5px;
@@ -149,4 +163,61 @@ tr:hover {
 .footer-section {
   background-color: pink;
   height: 80px;
+}
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+/* This applies css to mobiles phones */
+@media only screen and (max-width: 600px) {
+  .favorite-section {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .favorite-section {
+    background-color: lime;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .favorite-section {
+    background-color: grey;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .favorite-section {
+    background-color: cyan;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .favorite-section {
+    background-color: tomato;
+  }
+
+  .weather-image .wi-thunderstorm {
+    font-size: 250px;
+  }
+
+  .weather-info {
+    padding-top: 25px;
+  }
+
+  .weather-info,
+  .temp-now,
+  .min-max,
+  .wind-hum,
+  .min-temp,
+  .max-temp,
+  .wind,
+  .humidity {
+    display: flex;
+    font-size: 42px;
+  }
 }
